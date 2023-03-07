@@ -2,15 +2,14 @@
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
   <div class="container py-5">
     <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px">
-      <h5 class="fw-bold text-secondary text-uppercase">Nossos Serviços</h5>
+      <h5 class="fw-bold text-primary text-uppercase">Nossos Serviços</h5>
       <h1 class="mb-0">Soluções Customizadas em T.I. para seu sucesso empresarial</h1>
     </div>
     <div class="row g-5">
       <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-        <div
-          class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+        <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
           <div class="service-icon">
-            <i class="bi bi-shield-lock-fill text-dark"></i>
+            <i class="bi bi-shield-lock-fill text-white"></i>
           </div>
           <h4 class="mb-3">Segurança Cibernética</h4>
           <p class="m-0">
@@ -23,10 +22,9 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
-        <div
-          class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+        <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
           <div class="service-icon">
-            <i class="bi bi-pie-chart-fill text-dark"></i>
+            <i class="bi bi-pie-chart-fill text-white"></i>
           </div>
           <h4 class="mb-3">Análise de Dados</h4>
           <p class="m-0">
@@ -39,10 +37,9 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
-        <div
-          class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+        <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
           <div class="service-icon">
-            <i class="bi bi-code-slash text-dark"></i>
+            <i class="bi bi-code-slash text-white"></i>
           </div>
           <h4 class="mb-3">Desenvolvimento Web</h4>
           <p class="m-0">
@@ -55,10 +52,9 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-        <div
-          class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+        <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
           <div class="service-icon">
-            <i class="bi bi-menu-app-fill text-dark"></i>
+            <i class="bi bi-menu-app-fill text-white"></i>
           </div>
           <h4 class="mb-3">Desenvolvimentos de Apps</h4>
           <p class="m-0">
@@ -72,10 +68,9 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
-        <div
-          class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+        <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
           <div class="service-icon">
-            <i class="bi bi-binoculars-fill text-dark"></i>
+            <i class="bi bi-binoculars-fill text-white"></i>
           </div>
           <h4 class="mb-3">Otimização SEO</h4>
           <p class="m-0">
@@ -88,14 +83,13 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
-        <div
-          class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
-          <h3 class="text-dark mb-3">Faça seu orçamento</h3>
-          <p class="text-dark mb-3">
+        <div class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
+          <h3 class="text-white mb-3">Faça seu orçamento</h3>
+          <p class="text-white mb-3">
             Abertos a propostas e novos desafios, buscando a
             customização do seu software para melhor satisfazê-lo
           </p>
-          <h3 class="text-dark mb-0">(19) 99674 5466</h3>
+          <h3 class="text-white mb-0">(19) 99674 5466</h3>
         </div>
       </div>
     </div>

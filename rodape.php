@@ -6,12 +6,12 @@
       <div class="col-lg-4 col-md-6 footer-about">
         <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-4">
           <a href="index.html" class="navbar-brand">
-            <h1 class="m-0 text-dark">
+            <h1 class="m-0 text-white">
               <img src="img/logo.png" alt="Logo img" />
               <i class=""></i><?php echo $nome_site ?>
             </h1>
           </a>
-          <p class="mt-3 mb-4 text-dark">
+          <p class="mt-3 mb-4 text-white">
             Nossa empresa preza pela transparência e estamos prontos a
             escutar, absorver, fazer novas amizades, expandir nosso Time
             compartilhar e ensinar smpre que necessário. Engajamento é tudo
@@ -65,8 +65,7 @@
             <div class="link-animated d-flex flex-column justify-content-start">
               <a class="text-light mb-2" href="index.php"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
               <a class="text-light mb-2" href="about.php"><i class="bi bi-arrow-right text-primary me-2"></i>Sobre</a>
-              <a class="text-light mb-2" href="service.php"><i
-                  class="bi bi-arrow-right text-primary me-2"></i>Serviços</a>
+              <a class="text-light mb-2" href="service.php"><i class="bi bi-arrow-right text-primary me-2"></i>Serviços</a>
               <a class="text-light mb-2" href="team.php"><i class="bi bi-arrow-right text-primary me-2"></i>Conheça
                 nosso Time</a>
               <a class="text-light mb-2" href="blog.php"><i class="bi bi-arrow-right text-primary me-2"></i>Últimas
@@ -79,22 +78,13 @@
               <h3 class="text-light mb-0">Links Externos</h3>
             </div>
             <div class="link-animated d-flex flex-column justify-content-start">
-              <a class="text-light mb-2" target="_blank" href="https://www.google.com/"><i
-                  class="bi bi-arrow-right text-primary me-2"></i>Google</a>
-              <a class="text-light mb-2" target="_blank"
-                href="https://www.microsoft.com/pt-br/microsoft-365/business/compare-all-microsoft-365-business-products-b?&ef_id=CjwKCAiA9NGfBhBvEiwAq5vSy1WJ_IY02sjoieRN4t8PdAw78NGWQlgCqOJ6IepbOcv-TgX04HuwCRoCRxYQAvD_BwE:G:s&OCID=AIDcmm409lj8ne_SEM_CjwKCAiA9NGfBhBvEiwAq5vSy1WJ_IY02sjoieRN4t8PdAw78NGWQlgCqOJ6IepbOcv-TgX04HuwCRoCRxYQAvD_BwE:G:s&lnkd=Google_O365SMB_Brand&gclid=CjwKCAiA9NGfBhBvEiwAq5vSy1WJ_IY02sjoieRN4t8PdAw78NGWQlgCqOJ6IepbOcv-TgX04HuwCRoCRxYQAvD_BwE"><i
-                  class="bi bi-arrow-right text-primary me-2"></i>Microsoft</a>
-              <a class="text-light mb-2" target="_blank"
-                href="https://wpinformatica.online/multimarcas/?gclid=CjwKCAiA9NGfBhBvEiwAq5vSy8ebxb3LpHr9q1lbdcrQndPey4bxLaBOFMllf4ZcG6S_yx8o2Q32RxoCtL0QAvD_BwE"><i
-                  class="bi bi-arrow-right text-primary me-2"></i>Formate
+              <a class="text-light mb-2" target="_blank" href="https://www.google.com/"><i class="bi bi-arrow-right text-primary me-2"></i>Google</a>
+              <a class="text-light mb-2" target="_blank" href="https://www.microsoft.com/pt-br/microsoft-365/business/compare-all-microsoft-365-business-products-b?&ef_id=CjwKCAiA9NGfBhBvEiwAq5vSy1WJ_IY02sjoieRN4t8PdAw78NGWQlgCqOJ6IepbOcv-TgX04HuwCRoCRxYQAvD_BwE:G:s&OCID=AIDcmm409lj8ne_SEM_CjwKCAiA9NGfBhBvEiwAq5vSy1WJ_IY02sjoieRN4t8PdAw78NGWQlgCqOJ6IepbOcv-TgX04HuwCRoCRxYQAvD_BwE:G:s&lnkd=Google_O365SMB_Brand&gclid=CjwKCAiA9NGfBhBvEiwAq5vSy1WJ_IY02sjoieRN4t8PdAw78NGWQlgCqOJ6IepbOcv-TgX04HuwCRoCRxYQAvD_BwE"><i class="bi bi-arrow-right text-primary me-2"></i>Microsoft</a>
+              <a class="text-light mb-2" target="_blank" href="https://wpinformatica.online/multimarcas/?gclid=CjwKCAiA9NGfBhBvEiwAq5vSy8ebxb3LpHr9q1lbdcrQndPey4bxLaBOFMllf4ZcG6S_yx8o2Q32RxoCtL0QAvD_BwE"><i class="bi bi-arrow-right text-primary me-2"></i>Formate
                 seu PC</a>
-              <a class="text-light mb-2" target="_blank"
-                href="https://recoverit.wondershare.com.br/computer-troubleshooting/speed-up-pc.html?gclid=CjwKCAiA9NGfBhBvEiwAq5vSyw4S970zbgZh7MP3ILlFFF3uIim88C513YCPhGbJmdyMTPWJRuCfUhoCcJUQAvD_BwE"><i
-                  class="bi bi-arrow-right text-primary me-2"></i>Acelere
+              <a class="text-light mb-2" target="_blank" href="https://recoverit.wondershare.com.br/computer-troubleshooting/speed-up-pc.html?gclid=CjwKCAiA9NGfBhBvEiwAq5vSyw4S970zbgZh7MP3ILlFFF3uIim88C513YCPhGbJmdyMTPWJRuCfUhoCcJUQAvD_BwE"><i class="bi bi-arrow-right text-primary me-2"></i>Acelere
                 seu lap/desktop</a>
-              <a class="text-light mb-2" target="_blank"
-                href="https://campanhas.serpro.gov.br/institucional/inovacao-que-pulsa/?gclid=CjwKCAiA9NGfBhBvEiwAq5vSyzCNpJ7oI-QJhs1B4yi8vwba8Gi6ITrIWh_33ULTLutK3vGq-PMzmhoCFiYQAvD_BwE"><i
-                  class="bi bi-arrow-right text-primary me-2"></i>Últimas
+              <a class="text-light mb-2" target="_blank" href="https://campanhas.serpro.gov.br/institucional/inovacao-que-pulsa/?gclid=CjwKCAiA9NGfBhBvEiwAq5vSyzCNpJ7oI-QJhs1B4yi8vwba8Gi6ITrIWh_33ULTLutK3vGq-PMzmhoCFiYQAvD_BwE"><i class="bi bi-arrow-right text-primary me-2"></i>Últimas
                 do mundo da T.I.</a>
             </div>
           </div>

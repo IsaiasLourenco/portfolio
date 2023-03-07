@@ -4,7 +4,7 @@
       <div class="row g-5">
         <div class="col-lg-7">
           <div class="section-title position-relative pb-3 mb-5">
-            <h5 class="fw-bold text-secondary text-uppercase">
+            <h5 class="fw-bold text-primary text-uppercase">
               Peça um orçamento
             </h5>
             <h1 class="mb-0">Quer um orçamento gratuito? Contate a gente!</h1>
@@ -12,13 +12,13 @@
           <div class="row gx-3">
             <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
               <h5 class="mb-4">
-                <i class="bi bi-reply-all-fill text-secondary me-3"></i>Respondemos
+                <i class="bi bi-reply-all-fill text-primary me-3"></i>Respondemos
                 rápido
               </h5>
             </div>
             <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
               <h5 class="mb-4">
-                <i class="bi bi-headset text-secondary"></i> Suporte por
+                <i class="bi bi-headset text-primary"></i> Suporte por
                 Telefone 24 hrs
               </h5>
             </div>
@@ -33,11 +33,11 @@
           <div class="d-flex align-items-center mt-2 wow zoomIn" data-wow-delay="0.6s">
             <div class="bg-primary d-flex align-items-center justify-content-center rounded"
               style="width: 60px; height: 60px">
-              <i class="bi bi-telephone-inbound-fill text-secondary"></i>
+              <i class="bi bi-telephone-inbound-fill text-white"></i>
             </div>
             <div class="ps-4">
               <h5 class="mb-2">Entre em contato</h5>
-              <h4 class="text-secondary mb-0">(19) 19 99674 5466</h4>
+              <h4 class="text-primary mb-0">(19) 19 99674 5466</h4>
             </div>
           </div>
         </div>

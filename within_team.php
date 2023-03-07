@@ -2,7 +2,7 @@
   <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container py-5">
       <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px">
-        <h5 class="fw-bold text-secondary text-uppercase">Nossa Equipe</h5>
+        <h5 class="fw-bold text-primary text-uppercase">Nossa Equipe</h5>
         <h1 class="mb-0">
           Um time de Profissionais preparados para otimizar o seu negócio
         </h1>
@@ -16,7 +16,7 @@
 
             <div class="text-center py-4">
 
-              <h4 class="text-secondary">Isaias Lourenço</h4>
+              <h4 class="text-primary">Isaias Lourenço</h4>
 
               <h5 class="mb-3">
                 <i class="bi bi-caret-right-fill"></i>SEO
@@ -37,7 +37,7 @@
           <div class="team-item bg-light rounded overflow-hidden">
 
             <div class="text-center py-4">
-              <h4 class="text-secondary">Cristiano Faded</h4>
+              <h4 class="text-primary ">Cristiano Pereira</h4>
               <h5 class="mb-3">
                 <i class="bi bi-caret-right-fill"></i>Gerente Financeiro
               </h5>
@@ -56,7 +56,7 @@
           <div class="team-item bg-light rounded overflow-hidden">
             <div class="team-img position-relative overflow-hidden">
               <div class="text-center py-4">
-                <h4 class="text-secondary">Igor Mallis</h4>
+                <h4 class="text-primary">Igor Mallis</h4>
                 <h5 class="mb-3">
                   <i class="bi bi-caret-right-fill"></i>Designer
                 </h5>

@@ -2,7 +2,7 @@
  <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
    <div class="container py-5">
      <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px">
-       <h5 class="fw-bold text-secondary text-uppercase">Nos contate</h5>
+       <h5 class="fw-bold text-primary text-uppercase">Nos contate</h5>
        <h1 class="mb-0">
          Se você tem alguma dúvida, sinta-se à vontade para entrar em
          conntato conosco
@@ -13,11 +13,11 @@
          <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.1s">
            <div class="bg-primary d-flex align-items-center justify-content-center rounded"
              style="width: 60px; height: 60px">
-             <i class="fa fa-phone-alt text-secondary"></i>
+             <i class="fa fa-phone-alt text-white"></i>
            </div>
            <div class="ps-4">
              <h5 class="mb-2">Nos ligue para peguntar sobre uma dúvida</h5>
-             <h4 class="text-secondary mb-0">(19) 99674 5466</h4>
+             <h4 class="text-primary mb-0">(19) 99674 5466</h4>
            </div>
          </div>
        </div>
@@ -25,11 +25,11 @@
          <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.4s">
            <div class="bg-primary d-flex align-items-center justify-content-center rounded"
              style="width: 60px; height: 60px">
-             <i class="fa fa-envelope-open text-secondary"></i>
+             <i class="fa fa-envelope-open text-white"></i>
            </div>
            <div class="ps-4">
              <h5 class="mb-2">No envie um Email para seu orçamento'</h5>
-             <h4 class="text-secondary mb-0">adm@vetor256.com</h4>
+             <h4 class="text-primary mb-0">adm@vetor256.com</h4>
            </div>
          </div>
        </div>
@@ -37,11 +37,11 @@
          <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.8s">
            <div class="bg-primary d-flex align-items-center justify-content-center rounded"
              style="width: 60px; height: 60px">
-             <i class="fa fa-map-marker-alt text-secondary"></i>
+             <i class="fa fa-map-marker-alt text-white"></i>
            </div>
            <div class="ps-4">
              <h5 class="mb-2">Visite nosso escritório</h5>
-             <h4 class="text-secondary mb-0">
+             <h4 class="text-primary mb-0">
                Rua Mococa, 880 - Jd. Itacolomy, Mogi Guaçu/SP - Brasi
              </h4>
            </div>

@@ -36,9 +36,8 @@
           </div>
         </div>
         <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
-          <div class="bg-primary d-flex align-items-center justify-content-center rounded"
-            style="width: 60px; height: 60px">
-            <i class="bi bi-telephone-inbound-fill text-secondary"></i>
+          <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px">
+            <i class="bi bi-telephone-inbound-fill text-white"></i>
           </div>
           <div class="ps-4">
             <h5 class="mb-2">Dúvidas? Ligue <i class="bi bi-arrow-down"></i></h5>
@@ -50,8 +49,7 @@
       </div>
       <div class="col-lg-5" style="min-height: 500px">
         <div class="position-relative h-100">
-          <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/sobre.jpg"
-            style="object-fit: cover" />
+          <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/sobre.jpg" style="object-fit: cover" />
         </div>
       </div>
     </div>
