@@ -17,8 +17,7 @@
            </div>
            <div class="p-5 pt-0">
              <h1 class="display-5 mb-3">
-               <small class="align-top" style="font-size: 22px; line-height: 45px">$</small>Ligue<small
-                 class="align-bottom" style="font-size: 16px; line-height: 40px">/ Mês</small>
+               <small class="align-top" style="font-size: 22px; line-height: 45px">$</small>Ligue<small class="align-bottom" style="font-size: 16px; line-height: 40px">/ Mês</small>
              </h1>
              <div class="d-flex justify-content-between mb-3">
                <span>HTML5 & CSS3</span><i class="fa fa-check text-secondary pt-1"></i>
@@ -35,7 +34,7 @@
              <div class="d-flex justify-content-between mb-2">
                <span>Pagamento para Instalação</span><i class="fa fa-check text-secondary pt-1"></i>
              </div>
-             <a href="" class="btn btn-primary py-2 px-4 mt-4">Faça seu pedido</a>
+             <a href="quote.php" class="btn btn-primary py-2 px-4 mt-4">Faça seu pedido</a>
            </div>
          </div>
        </div>
@@ -47,8 +46,7 @@
            </div>
            <div class="p-5 pt-0">
              <h1 class="display-5 mb-3">
-               <small class="align-top" style="font-size: 22px; line-height: 45px">$</small>Ligue<small
-                 class="align-bottom" style="font-size: 16px; line-height: 40px">/ Mês</small>
+               <small class="align-top" style="font-size: 22px; line-height: 45px">$</small>Ligue<small class="align-bottom" style="font-size: 16px; line-height: 40px">/ Mês</small>
              </h1>
              <div class="d-flex justify-content-between mb-3">
                <span>HTML5 & CSS3</span><i class="fa fa-check text-secondary pt-1"></i>
@@ -65,7 +63,7 @@
              <div class="d-flex justify-content-between mb-2">
                <span>Pagamento para Instalação</span><i class="fa fa-check text-secondary pt-1"></i>
              </div>
-             <a href="" class=" btn btn-primary py-2 px-4 mt-4">Faça seu pedido</a>
+             <a href="quote.php" class=" btn btn-primary py-2 px-4 mt-4">Faça seu pedido</a>
            </div>
          </div>
        </div>
@@ -77,8 +75,7 @@
            </div>
            <div class="p-5 pt-0">
              <h1 class="display-5 mb-3">
-               <small class="align-top" style="font-size: 22px; line-height: 45px">$</small>Ligue<small
-                 class="align-bottom" style="font-size: 16px; line-height: 40px">/ Mês</small>
+               <small class="align-top" style="font-size: 22px; line-height: 45px">$</small>Ligue<small class="align-bottom" style="font-size: 16px; line-height: 40px">/ Mês</small>
              </h1>
              <div class="d-flex justify-content-between mb-3">
                <span>HTML5 & CSS3</span><i class="fa fa-check text-secondary pt-1"></i>
@@ -95,7 +92,7 @@
              <div class="d-flex justify-content-between mb-2">
                <span>Pagamento para Instalação</span><i class="fa fa-check text-secondary pt-1"></i>
              </div>
-             <a href="" class="btn btn-primary py-2 px-4 mt-4">Faça seu pedido</a>
+             <a href="quote.php" class="btn btn-primary py-2 px-4 mt-4">Faça seu pedido</a>
            </div>
          </div>
        </div>

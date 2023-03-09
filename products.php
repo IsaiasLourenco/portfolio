@@ -48,7 +48,7 @@
   <div class="container-fluid position-relative p-0">
     <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
       <a href="index.php" class="navbar-brand p-0">
-        <h1 class="m-0 text-white"><img src="img/logo.png" alt="Logo img" />
+        <h1 class="m-0"><img src="img/logogg.png" width="80px" alt="Logo img" />
           <i class=""></i><?php echo $nome_site ?>
         </h1>
       </a>
@@ -82,7 +82,6 @@
         <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i
             class="fa fa-search"></i></butaton>
         <a href="products.php" class="btn btn-primary py-2 px-4 me-3 slideInLeft active">Produtos</a>
-        <a target="_blank" href="sistema/index.php" class="btn btn-outline-light py-2 px-4 me-3 slideInRight">Login</a>
       </div>
     </nav>
 
@@ -110,9 +109,11 @@
           <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
             <div class="p-3" style="max-width: 900px">
               <h1 class="display-4 text-white animated zoomIn">
-                Windows <i class="fa fa-windows"></i><br />
-                Linux <i class="bi bi-ubuntu"></i><br />
-                Mac <i class="bi bi-apple"></i>
+                <h1 class="display-4 text-white animated zoomIn">
+                  Mobilidade <i class="bi bi-app"></i><br />
+                  Integração <i class="bi bi-window-sidebar"></i><br />
+                  API's <i class="bi bi-textarea-resize"></i>
+                </h1>
               </h1>
               <a href="quote.php" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Orçamento
                 Gratuito</a>
@@ -175,7 +176,7 @@
               <div class="d-flex justify-content-between mb-3">
                 <span>Stand Alone ou Agregado</span><i class="fa fa-check text-faded pt-1" style="color:green"></i>
               </div>
-              <a href="" class="btn btn-primary py-2 px-4 mt-4">Faça seu pedido</a>
+              <a href="quote.php" class="btn btn-primary py-2 px-4 mt-4">Faça seu pedido</a>
             </div>
           </div>
         </div>
@@ -202,7 +203,7 @@
               <div class="d-flex justify-content-between mb-2">
                 <span>SQL</span><i class="fa fa-check text-faded pt-1" style="color:green"></i>
               </div>
-              <a href="" class="btn btn-primary py-2 px-4 mt-4">Faça seu pedido</a>
+              <a href="quote.php" class="btn btn-primary py-2 px-4 mt-4">Faça seu pedido</a>
             </div>
           </div>
         </div>
@@ -229,95 +230,149 @@
               <div class="d-flex justify-content-between mb-2">
                 <span>Ajax</span><i class="fa fa-check text-faded pt-1" style="color:green"></i>
               </div>
-              <a href="" class="btn btn-primary py-2 px-4 mt-4">Faça seu pedido</a>
+              <a href="quote.php" class="btn btn-primary py-2 px-4 mt-4">Faça seu pedido</a>
             </div>
           </div>
         </div>
       </div>
 
-      <!--<div class="row g-0">
+      <div class="row g-0">
         <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
-          <div class="bg-light rounded">
+          <div class="bg-white rounded">
             <div class="border-bottom py-4 px-5 mb-4">
-              <h4 class="text-primary mb-1">Aplicativos</h4>
-              <small class="text-uppercase">Para trabalhos em conjunto ou separados</small>
+              <h4 class="text-primary mb-1">Ordens de Serviço e Vendas</h4>
+              <small class="text-uppercase">Oficinas Mecânicas, Assistência Técnica e Vendas de Peças e
+                Acessórios</small>
             </div>
             <div class="p-5 pt-0">
-              <h1 class="display-5 mb-3">
-                <small class="align-top" style="font-size: 22px; line-height: 45px">$</small>Ligue<small
-                  class="align-bottom" style="font-size: 16px; line-height: 40px">/ App</small>
-              </h1>
+
               <div class="d-flex justify-content-between mb-3">
-                <span>Ionic</span><i class="fa fa-check text-faded pt-1" style="color:green"></i>
+                <span>Ponto de Venda</span><i class="fa fa-check text-faded pt-1" style="color:green"></i>
               </div>
               <div class="d-flex justify-content-between mb-3">
-                <span>React</span><i class="fa fa-check text-faded pt-1" style="color:green"></i>
+                <span>Controle de Orçamentos</span><i class="fa fa-check text-faded pt-1" style="color:green"></i>
               </div>
               <div class="d-flex justify-content-between mb-3">
-                <span>SQL</span><i class="fa fa-check text-faded pt-1" style="color:green"></i>
+                <span>Envio para o email do cliente</span><i class="fa fa-check text-faded pt-1"
+                  style="color:green"></i>
               </div>
               <div class="d-flex justify-content-between mb-3">
-                <span>Stand Alone ou Agregado</span><i class="fa fa-check text-faded pt-1" style="color:green"></i>
+                <span>Estoque Baixo -> Compras</span><i class="fa fa-check text-faded pt-1" style="color:green"></i>
               </div>
-              <a href="" class="btn btn-primary py-2 px-4 mt-4">Faça seu pedido</a>
+              <div class="d-flex justify-content-between mb-3">
+                <span>Relatórios de todos produtos e serviços</span><i class="fa fa-check text-faded pt-1"
+                  style="color:green"></i>
+              </div>
+              <div class="d-flex justify-content-between mb-3">
+                <span>Aplicativo incluso ou não</span><i class="fa fa-check text-faded pt-1" style="color:green"></i>
+              </div>
+              <a href="quote.php" class="btn btn-primary py-2 px-4 mt-4">Faça seu pedido</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
-          <div class="bg-white rounded shadow position-relative" style="z-index: 1">
+          <div class="bg-light rounded shadow position-relative" style="z-index: 1">
             <div class="border-bottom py-4 px-5 mb-4">
-              <h4 class="text-primary mb-1">Softwares</h4>
-              <small class="text-uppercase">Sistemas de Gerenciamento e Controle</small>
+              <h4 class="text-primary mb-1">Restaurantes</h4>
+              <small class="text-uppercase">Sistemas de Gerenciamento para Restaurantes e Lanchonetes</small>
             </div>
             <div class="p-5 pt-0">
-              <h1 class="display-5 mb-3">
-                <small class="align-top" style="font-size: 22px; line-height: 45px">$</small>Ligue<small
-                  class="align-bottom" style="font-size: 16px; line-height: 40px">/ Item</small>
-              </h1>
+
+
+              <div class="position-relative h-100">
+                <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s"
+                  src="img/hablidades.jpg" style="object-fit: cover" />
+              </div>
+
+
+
               <div class="d-flex justify-content-between mb-3">
-                <span>Estoque/Compras/Vendas</span><i class="fa fa-check text-faded pt-1" style="color:green"></i>
+                <span>Reserva de mesas</span><i class="fa fa-check text-faded pt-1" style="color:green"></i>
+              </div>
+              <div class="d-flex justify-content-between mb-3">
+                <span>Estoque baixo -> Compras</span><i class="fa fa-check text-faded pt-1" style="color:green"></i>
               </div>
               <div class="d-flex justify-content-between mb-3">
                 <span>Fluxo de Caixa</span><i class="fa fa-check text-faded pt-1" style="color:green"></i>
               </div>
               <div class="d-flex justify-content-between mb-3">
-                <span>Microsserviços</span><i class="fa fa-check text-faded pt-1" style="color:green"></i>
+                <span>Cardápio direto nos relatórios</span><i class="fa fa-check text-faded pt-1"
+                  style="color:green"></i>
+              </div>
+              <div class="d-flex justify-content-between mb-3">
+                <span>Pedidos da mesa direto para a cozinha</span><i class="fa fa-check text-faded pt-1"
+                  style="color:green"></i>
               </div>
               <div class="d-flex justify-content-between mb-2">
-                <span>SQL</span><i class="fa fa-check text-faded pt-1" style="color:green"></i>
+                <span>Aplicativo Ionic - Android e Ios</span><i class="fa fa-check text-faded pt-1"
+                  style="color:green"></i>
               </div>
-              <a href="" class="btn btn-primary py-2 px-4 mt-4">Faça seu pedido</a>
+              <a href="quote.php" class="btn btn-primary py-2 px-4 mt-4">Faça seu pedido</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
-          <div class="bg-light rounded">
+          <div class="bg-white rounded">
             <div class="border-bottom py-4 px-5 mb-4">
-              <h4 class="text-primary mb-1">Sites</h4>
-              <small class="text-uppercase">Seu negócio na Internet e no mundo inteiro</small>
+              <h4 class="text-primary mb-1">Mercados, Padarias e Lojas</h4>
+              <small class="text-uppercase">Gestão completa, de Estoque, fluxo de entrada e saída e PDV</small>
             </div>
             <div class="p-5 pt-0">
-              <h1 class="display-5 mb-3">
-                <small class="align-top" style="font-size: 22px; line-height: 45px">$</small>Ligue<small
-                  class="align-bottom" style="font-size: 16px; line-height: 40px">/ Site</small>
-              </h1>
+
               <div class="d-flex justify-content-between mb-3">
-                <span>HTML5 & CSS3</span><i class="fa fa-check text-faded pt-1" style="color:green"></i>
+                <span>Ponto de Venda</span><i class="fa fa-check text-faded pt-1" style="color:green"></i>
               </div>
               <div class="d-flex justify-content-between mb-3">
-                <span>Bootstrap v5</span><i class="fa fa-check text-faded pt-1" style="color:green"></i>
+                <span>Estoque Baixo -> Compras</span><i class="fa fa-check text-faded pt-1" style="color:green"></i>
               </div>
               <div class="d-flex justify-content-between mb-3">
-                <span>Layout Responsivo</span><i class="fa fa-check text-faded pt-1" style="color:green"></i>
+                <span>Relatórios em PDF</span><i class="fa fa-check text-faded pt-1" style="color:green"></i>
               </div>
               <div class="d-flex justify-content-between mb-2">
-                <span>Ajax</span><i class="fa fa-check text-faded pt-1" style="color:green"></i>
+                <span>Controle de funcionários e cientes</span><i class="fa fa-check text-faded pt-1"
+                  style="color:green"></i>
               </div>
-              <a href="" class="btn btn-primary py-2 px-4 mt-4">Faça seu pedido</a>
+              <div class="d-flex justify-content-between mb-2">
+                <span>Controle fichas, contaas a receber</span><i class="fa fa-check text-faded pt-1"
+                  style="color:green"></i>
+              </div>
+              <div class="d-flex justify-content-between mb-2">
+                <span>Aplicativo incluso ou não</span><i class="fa fa-check text-faded pt-1" style="color:green"></i>
+              </div>
+              <a href="quote.php" class="btn btn-primary py-2 px-4 mt-4">Faça seu pedido</a>
             </div>
           </div>
         </div>
-      </div>-->
+      </div>
+
+      <div class="row g-0">
+
+
+        <div class="col-lg-4 wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px">
+          <div class="position-relative h-100">
+            <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s"
+              src="img/LorenzoResst3.JPG" style="object-fit: cover" />
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px">
+          <div class="position-relative h-100">
+            <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s"
+              src="img/LorenzoResst.JPG" style="object-fit: cover" />
+          </div>
+        </div>
+
+        <div class="col-lg-4 wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px">
+          <div class="position-relative h-100">
+            <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s"
+              src="img/LorenzoResst2.JPG" style="object-fit: cover" />
+          </div>
+        </div>
+
+
+
+      </div>
 
     </div>
   </div>

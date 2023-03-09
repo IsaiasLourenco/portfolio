@@ -48,7 +48,7 @@
   <div class="container-fluid position-relative p-0">
     <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
       <a href="index.php" class="navbar-brand p-0">
-        <h1 class="m-0 text-white"><img src="img/logo.png" alt="Logo img" />
+        <h1 class="m-0"><img src="img/logogg.png" width="80px" alt="Logo img" />
           <i class=""></i><?php echo $nome_site ?>
         </h1>
       </a>
@@ -82,7 +82,6 @@
         <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i
             class="fa fa-search"></i></butaton>
         <a href="products.php" class="btn btn-primary py-2 px-4 me-3 slideInLeft">Produtos</a>
-        <a target="_blank" href="sistema/index.php" class="btn btn-outline-light py-2 px-4 me-3 slideInRight">Login</a>
       </div>
     </nav>
 

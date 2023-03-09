@@ -4,7 +4,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>PORTFOLIO - <?php echo $nome_site ?></title>
+  <title><?php echo $nome_site ?></title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta content="Free HTML Templates" name="keywords" />
   <meta content="Free HTML Templates" name="description" />
@@ -48,7 +48,7 @@
   <div class="container-fluid position-relative p-0">
     <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
       <a href="index.php" class="navbar-brand p-0">
-        <h1 class="m-0"><img src="img/logogg.png" width="100px" alt="Logo img" />
+        <h1 class="m-0"><img src="img/logogg.png" width="80px" alt="Logo img" />
           <i class=""></i><?php echo $nome_site ?>
         </h1>
       </a>

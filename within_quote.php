@@ -33,7 +33,7 @@
           <div class="d-flex align-items-center mt-2 wow zoomIn" data-wow-delay="0.6s">
             <div class="bg-primary d-flex align-items-center justify-content-center rounded"
               style="width: 60px; height: 60px">
-              <i class="bi bi-telephone-inbound-fill text-white"></i>
+              <a class="bi bi-telephone-inbound-fill text-white" href=""></a>
             </div>
             <div class="ps-4">
               <h5 class="mb-2">Entre em contato</h5>
