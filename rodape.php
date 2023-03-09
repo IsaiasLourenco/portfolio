@@ -7,7 +7,7 @@
         <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-4">
           <a href="index.html" class="navbar-brand">
             <h1 class="m-0 text-white">
-              <img src="img/logo.png" alt="Logo img" />
+              <img src="img/logogg.png" alt="Logo img" width="150px">
               <i class=""></i><?php echo $nome_site ?>
             </h1>
           </a>

@@ -10,7 +10,7 @@
   <meta content="Free HTML Templates" name="description" />
 
   <!-- Favicon -->
-  <link href="img/logozoco.ico" rel="icon" />
+  <link href="img/oficiallogo.ico" rel="icon" />
 
   <!-- Google Web Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -45,7 +45,7 @@
   <div class="container-fluid position-relative p-0">
     <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
       <a href="index.php" class="navbar-brand p-0">
-        <h1 class="m-0"><img src="img/logozoco.PNG" width="100px" alt="Logo img" />
+        <h1 class="m-0"><img src="img/logogg.png" width="150px" alt="Logo img" />
           <i class=""></i><?php echo $nome_site ?>
         </h1>
       </a>
