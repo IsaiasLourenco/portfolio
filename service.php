@@ -15,9 +15,7 @@
   <!-- Google Web Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Icon Font Stylesheet -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -36,8 +34,7 @@
 
 <body>
   <!-- Spinner Start -->
-  <div id="spinner"
-    class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+  <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
     <div class="spinner"></div>
   </div>
   <!-- Spinner End -->
@@ -48,7 +45,7 @@
   <div class="container-fluid position-relative p-0">
     <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
       <a href="index.php" class="navbar-brand p-0">
-        <h1 class="m-0 text-white"><img src="img/logo.png" alt="Logo img" />
+        <h1 class="m-0"><img src="img/logogg.png" width="120px" alt="Logo img" />
           <i class=""></i><?php echo $nome_site ?>
         </h1>
       </a>
@@ -79,8 +76,7 @@
           </div>
           <a href="contact.php" class="nav-item nav-link">Contato</a>
         </div>
-        <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i
-            class="fa fa-search"></i></butaton>
+        <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
         <a href="products.php" class="btn btn-primary py-2 px-4 me-3 slideInLeft">Produtos</a>
         <a target="_blank" href="sistema/index.php" class="btn btn-outline-light py-2 px-4 me-3 slideInRight">Login</a>
       </div>
