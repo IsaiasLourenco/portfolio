@@ -43,26 +43,28 @@
         </div>
         <div class="col-lg-5">
           <div class="bg-primary rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
-            <form>
+
+            <form method="post" action="orcamentos.php">
               <div class="row g-3">
                 <div class="col-xl-12">
-                  <input type="text" class="form-control bg-light border-0" placeholder="Seu nome"
-                    style="height: 55px" />
+                  <input type="text" class="form-control bg-light border-0" name="nome_msg" placeholder="Seu nome"
+                    style="height: 55px" required />
                 </div>
                 <div class="col-12">
-                  <input type="email" class="form-control bg-light border-0" placeholder="Seu Email"
-                    style="height: 55px" />
+                  <input type="email" class="form-control bg-light border-0" name="email_msg" placeholder="Seu Email"
+                    style="height: 55px" required />
                 </div>
                 <div class="col-12">
-                  <select class="form-select bg-light border-0" style="height: 55px">
+                  <select name="plano_msg" class="form-select bg-light border-0" required style="height: 55px">
                     <option selected>Selecione um Plano</option>
-                    <option value="1">Plano Básico</option>
-                    <option value="2">Plano Standard</option>
-                    <option value="3">Plano Advanced</option>
+                    <option value="Plano Básico">Plano Básico</option>
+                    <option value="Plano Standard">Plano Standard</option>
+                    <option value="Plano Advanced">Plano Advanced</option>
                   </select>
                 </div>
                 <div class="col-12">
-                  <textarea class="form-control bg-light border-0" rows="3" placeholder="Mensagem"></textarea>
+                  <textarea class="form-control bg-light border-0" rows="3" name="mensagem_msg" placeholder="Mensagem"
+                    required></textarea>
                 </div>
                 <div class="col-12">
                   <button class="btn btn-dark w-100 py-3" type="submit">
@@ -71,6 +73,7 @@
                 </div>
               </div>
             </form>
+
           </div>
         </div>
       </div>
