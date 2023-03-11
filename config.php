@@ -11,11 +11,6 @@ $CNPJ = '45.057.703/0001-94';
 $desenvolvedor_site = 'https://vetor256.com/';
 $desenvolvedor_nome = 'Vetor256.';
 
-//VARIÁVEIS PARA O SERVIDOR DE E-MAIL
-$email_serv = 'email-ssl.com.br';
-$email_porta = '465';
-$email_cript = 'SSL';
-
 //VARIÁVEIS PARA REDES SOCIAIS - Se você deixar a variável vazia, o ícone não será mostrado on-line.
 $facebook_pessoal = "https://www.facebook.com/NewProfileIsaiasLourenco";
 $facebook_empresarial = "https://www.facebook.com/joseisaiaslourenco";
