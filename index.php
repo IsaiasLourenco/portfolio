@@ -5,9 +5,10 @@
 <head>
   <meta charset="utf-8" />
   <title><?php echo $nome_site ?></title>
+  <meta name="description" content="Empresa voltada para a otimização do seu negócio utilizando o que existe de melhor hoje em dia ao se falar em Tecnologia." />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <meta content="Free HTML Templates" name="keywords" />
-  <meta content="Free HTML Templates" name="description" />
+  <meta content="Empresa voltada para a otimização do seu negócio utilizando o que existe de melhor hoje em dia ao se falar em Tecnologia." name="keywords" />
+  <meta content="Empresa voltada para a otimização do seu negócio utilizando o que existe de melhor hoje em dia ao se falar em Tecnologia." name="description" />
 
   <!-- Favicon -->
   <link href="img/oficiallogo.ico" rel="icon" />
