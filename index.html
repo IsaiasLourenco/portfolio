@@ -311,25 +311,27 @@
         </section>
         <!-- End of portfolio section -->
 
-    <div class="section contact" id="contact">
+        <!-- Contact section -->   
+        <div class="section contact" id="contact">
         <div id="map" class="map"></div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
                     <div class="contact-form-card">
                         <h4 class="contact-title">Entre em contato</h4>
-                        <form action="">
+                        <form action="mailto:isaiaslourenco2020@gmail.com" method="post" enctype="text/plain">
                             <div class="form-group">
-                                <input  class="form-control" type="text" placeholder="Nome *" required>
+                                <input name="nome" class="form-control" type="text" placeholder="Nome *" required>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" type="email" placeholder="Email *" required>
+                                <input name="email" class="form-control" type="email" placeholder="Email *" required>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" id=" placeholder="Message *" rows="7" required></textarea>
+                                <textarea name="mensagem" class="form-control" id="" placeholder="Mensagem *" rows="7" required></textarea>
                             </div>
-                            <div class="form-group ">
-                                <button type="submit" class="form-control btn btn-secondary" >Enviar Mensagem</button>
+                            <div class="form-group">                                
+                                <button type="submit" value="enviar" class="form-control btn btn-primary">Enviar Mensagem</button><br>
+                                <button type="reset" value="limpar" class="form-control btn btn-secondary">Limpar</button>
                             </div>
                         </form>
                     </div>
@@ -375,13 +377,16 @@
 
         </div>
     </div>
+    <!-- End of Contact section -->
+
+    <!-- Rodapé -->
     <footer class="footer py-3">
         <div class="container">
             <p style="text-align: center;" class="text-light">&copy; Criado</i> Por <a href="http://www.vetor256.com" target="_blank"><span class="text-success">Vetor256.</span></a> 
             </p>
         </div>
     </footer>
-
+    <!-- Fim do Rodapé -->
 
 </body>
 </html>
