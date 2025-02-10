@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Experiência e trabalhos de Isaias Lourenço">
     <meta name="author" content="Vetor256.">
@@ -11,13 +11,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.2/html2pdf.bundle.min.js"
         integrity="sha512-MpDFIChbcXl2QgipQrt1VcPHMldRILetapBl5MPCA9Y8r7qvlwx1/Mc9hNTzY+kS5kX6PdoDq41ws1HiVNLdZA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+    <!-- Script para chamada do download do PDF  -->
+    <script src="./assets/js/downloadPDF.js" defer></script>
+    <!-- Script para chamada do e-mail  -->
+    <script src="./assets/js/email.js" defer></script>
     <!-- icone -->
-    <link rel="shortcut icon" href="assets/imgs/ico.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/imgs/ico.ico" type="image/x-icon">
     <!-- font icons -->
-    <link rel="stylesheet" href="assets/themify-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="./assets/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + Isa main styles -->
-    <link rel="stylesheet" href="assets/css/isa.css">
+    <link rel="stylesheet" href="./assets/css/isa.css">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
@@ -105,8 +108,11 @@
                     <h3 class="font-weight-light">Quem sou eu ?</h3>
                     <span class="line mb-5"></span>
                     <h5 class="mb-3">Full Stack Developer / Front End Specialst / Back End Developer / QA Engineer</h5>
-                    <p class="mt-20">Comecei meus estudos ainda quando tínhamos o Sistema Operacional em Disco da Microsoft, o Ms-DOS. Me formei em Ciência da Computação e estou sempre me atualizando e me especializando em linguagens para Web.</p>
-                    <!--<button id="generate-pdf" class="btn btn-outline-danger"><i class="ti-import" aria-hidden="true"></i> Download do meu CV</button>-->
+                    <p class="mt-20">Comecei meus estudos ainda quando tínhamos o Sistema Operacional em Disco da
+                        Microsoft, o Ms-DOS. Me formei em Ciência da Computação e estou sempre me atualizando e me
+                        especializando em linguagens para Web.</p>
+                    <button id="generate-pdf" class="btn btn-outline-danger"><i class="ti-import"
+                            aria-hidden="true"></i> Download do meu CV</button>
                 </div>
                 <!-- Fim do Quem sou eu -->
 
@@ -168,7 +174,8 @@
                         <div class="col-1 text-danger pt-1"><i class="ti-search icon-lg"></i></div>
                         <div class="col-10 ml-auto mr-3">
                             <h6>QA Engineer</h6>
-                            <p class="subtitle">Testes manuais e automatizados.<br>Rational Manual Tester, Rational Unified Process, Selenium.</p>
+                            <p class="subtitle">Testes manuais e automatizados.<br>Rational Manual Tester, Rational
+                                Unified Process, Selenium.</p>
                             <hr>
                         </div>
                     </div>
@@ -186,7 +193,7 @@
                 <div class="row">
 
                     <div class="col-md-6 col-lg-4">
-                        
+
                         <!-- Experiência Profissional -->
                         <div class="card">
                             <div class="card-header">
@@ -214,22 +221,26 @@
                                 <hr>
                                 <!-- Fim na Enterprise Services Brasil Serviços de Tecnologia Ltda 
                                       - DXC Technology -->
-                                
+
                                 <!-- BairesDev -->
                                 <h6 class="title text-danger">2022 - 2022</h6>
                                 <P>QA Engineer</P>
                                 <P>BairesDev</P>
                                 <P class="subtitle">Engenheiro de Qualidade de Software para cliente Nomad Health
                                     Medical Jobs on demand. Responsável pela execução de casos de teste feitos pela
-                                    equipe de desenvolvedores. O resultado esperado era passado para eles continuarem com o processo de desenvolvimento. Tecnologias usadas: GitHub, Jira, Atlassian.</P>
-                                    <hr>
+                                    equipe de desenvolvedores. O resultado esperado era passado para eles continuarem
+                                    com o processo de desenvolvimento. Tecnologias usadas: GitHub, Jira, Atlassian.</P>
+                                <hr>
                                 <!-- Fim na BairesDev -->
-                                
+
                                 <!-- Vetor256. -->
                                 <h6 class="title text-danger">2021 - 2022</h6>
                                 <P>Full Stack Developer</P>
                                 <P>Vetor256.</P>
-                                <P class="subtitle">Por conta da minha paixão por Tecnologia da Informação, fundei a --Vetor256.--, projeto antigo onde trabalho para automatizar o comércio da minha cidade, usando HTML5, CSS3, JavaScript, Bootstrap, AJAX e PHP. Selenium para os testes unitários, de integração e de regressão.</P>
+                                <P class="subtitle">Por conta da minha paixão por Tecnologia da Informação, fundei a
+                                    --Vetor256.--, projeto antigo onde trabalho para automatizar o comércio da minha
+                                    cidade, usando HTML5, CSS3, JavaScript, Bootstrap, AJAX e PHP. Selenium para os
+                                    testes unitários, de integração e de regressão.</P>
                                 <hr>
                                 <!-- Fim na Vetor256. -->
 
@@ -237,7 +248,9 @@
                                 <h6 class="title text-danger">2018 - 2019</h6>
                                 <P>PL-SQL Developer</P>
                                 <P>NSI Informática</P>
-                                <P class="subtitle">Desenvolvedor Oracle Forms e Oracle Reports, criação de novas funcionalidades e atualizações de funcionalidades existentes para o software E-Commex, utilizado para comércio de Importação e Exportação de produtos.</P>
+                                <P class="subtitle">Desenvolvedor Oracle Forms e Oracle Reports, criação de novas
+                                    funcionalidades e atualizações de funcionalidades existentes para o software
+                                    E-Commex, utilizado para comércio de Importação e Exportação de produtos.</P>
                                 <hr>
                                 <!-- Fim na NSI Informática -->
 
@@ -246,7 +259,9 @@
                                 <P>Developer/Tester</P>
                                 <P>IBM</P>
                                 <P class="subtitle">Programador COBOL (Z-os, JCL, Cics, Db2, C-Sect).
-                                    Analista de Sistemas (VBA, Excel Avançado, Java, VB). Analista de Teste de Software (Rational Manual Tester (Certificado), Rational Clear Case, Rational Clear Quest, Manual Test Cases for Jobs e JCL no Mainframe).</P>
+                                    Analista de Sistemas (VBA, Excel Avançado, Java, VB). Analista de Teste de Software
+                                    (Rational Manual Tester (Certificado), Rational Clear Case, Rational Clear Quest,
+                                    Manual Test Cases for Jobs e JCL no Mainframe).</P>
                                 <!-- Fim na IBM -->
                             </div>
                         </div>
@@ -270,7 +285,9 @@
                                 <h6 class="title text-danger">2023 - Present</h6>
                                 <P>Full Stack Developer</P>
                                 <P>DevEmDobro</P>
-                                <P class="subtitle">Desenvolvedor Full Stack.<br> FrontEnd → HTML, CSS, JavaScript, Terminal, VSCode, Git, GitHub, Clean Code, Jest (Testes Automatizados), React, Redux, TypeScript. <br>BackEnd → SQL, Node.JS, Express, PostGreSQL, Docker</P>
+                                <P class="subtitle">Desenvolvedor Full Stack.<br> FrontEnd → HTML, CSS, JavaScript,
+                                    Terminal, VSCode, Git, GitHub, Clean Code, Jest (Testes Automatizados), React,
+                                    Redux, TypeScript. <br>BackEnd → SQL, Node.JS, Express, PostGreSQL, Docker</P>
                                 <hr>
                                 <!-- Fim do Curso Dev Quest -->
 
@@ -278,7 +295,11 @@
                                 <h6 class="title text-danger">2014 - 2015</h6>
                                 <P>Extensão Universitária em Sistemas de Informação com Ênfase em Logística.</P>
                                 <P>UNYLEYA EDITORA E CURSOS S/A</P>
-                                <P class="subtitle">Extensão universitária voltada para a importância dos Sistemas de Informação dentro das empresas e comércios, otimização dos processos para empresas que investem em T.I. e após um período curto, são capazes de captar não só o valor investido, mas a facilidade aumentada nos processos e a economia da empresa se solidificar e aumentar seus ganhos.</P>
+                                <P class="subtitle">Extensão universitária voltada para a importância dos Sistemas de
+                                    Informação dentro das empresas e comércios, otimização dos processos para empresas
+                                    que investem em T.I. e após um período curto, são capazes de captar não só o valor
+                                    investido, mas a facilidade aumentada nos processos e a economia da empresa se
+                                    solidificar e aumentar seus ganhos.</P>
                                 <hr>
                                 <!-- Fim da Extensão Universitária Unyleya -->
 
@@ -286,7 +307,9 @@
                                 <h6 class="title text-danger">2008 - 2011</h6>
                                 <P>Bacharel em Ciência da Computação</P>
                                 <P>Anhanguera Educacional</P>
-                                <P class="subtitle">Bacharelado em Ciência da Computação, onde aprendi, dentre as tantas disciplinas, Compiladores, Programação Orientada a Objectos e Administração de Banco de Dados.</P>
+                                <P class="subtitle">Bacharelado em Ciência da Computação, onde aprendi, dentre as tantas
+                                    disciplinas, Compiladores, Programação Orientada a Objectos e Administração de Banco
+                                    de Dados.</P>
                                 <!-- Fim Bacharel em Ciência da Computação -->
 
                             </div>
@@ -444,24 +467,26 @@
                     <div class="col-lg-8">
                         <div class="contact-form-card">
                             <h4 class="contact-title">Entre em contato</h4>
-                            <form action="mailto:isaiaslourenco2020@gmail.com, adm.vetor256@gmail.com?subject=Contato para falar do Portfólio" method="post" enctype="text/plain">
+                            <form action="mailto:isaiaslourenco2020@gmail.com" method="post" id="emailForm"
+                                accept-charset="UTF-8">
                                 <div class="form-group">
-                                    <input name="nome" class="form-control" type="text" placeholder="Nome *" required>
+                                    <input name="nome" class="form-control" type="text" placeholder="Nome *">
                                 </div>
                                 <div class="form-group">
                                     <input name="email" class="form-control" type="email" placeholder="Email *"
-                                        required>
+                                        autocomplete="on">
                                 </div>
                                 <div class="form-group">
-                                    <textarea name="mensagem" class="form-control" id="" placeholder="Mensagem *"
-                                        rows="7" required></textarea>
+                                    <textarea name="mensagem" class="form-control" placeholder="Mensagem *"
+                                        rows="7"></textarea>
                                 </div>
                                 <div class="form-group">
-                                    <button type="submit" value="enviar" class="form-control btn btn-primary" onclick="window.location.reload()">Enviar Mensagem   <i class="ti-email icon-md"></i></button><br>
-                                    <button type="reset" value="limpar"
-                                        class="form-control btn btn-secondary">Limpar<i class="ti-trash icon-md"></i></button>
+                                    <button id="emailLink" class="btn btn-outline-danger"><i class="ti-email"
+                                            aria-hidden="true"></i> Enviar Mensagem</button>
+                                    </button>
                                 </div>
                             </form>
+
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -524,13 +549,15 @@
     <!-- Rodapé -->
     <footer class="footer py-3">
         <div class="container">
-            <p style="text-align: center;" class="text-light">&copy; Criado</i> Por <a href="https://isaiaslourenco.github.io/vetor256/"
-                    target="_blank"><span class="text-success">Vetor256.</span></a>
+            <p style="text-align: center;" class="text-light">&copy; Criado</i> Por <a
+                    href="https://isaiaslourenco.github.io/vetor256/" target="_blank"><span
+                        class="text-success">Vetor256.</span></a>
             </p>
         </div>
     </footer>
     <!-- Fim do Rodapé -->
-    <script src="assets/js/downloadPDF.js" defer></script>
+    <script src="assets/js/downloadPDF.js"></script>
+
 </body>
 
 </html>
