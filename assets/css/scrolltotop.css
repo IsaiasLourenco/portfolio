@@ -1,0 +1,36 @@
+.scrollToTop {
+    bottom: 60px;
+    color: #000;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 17px;
+    line-height: 22px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    padding: 10px 20px; /* Ajustando o padding */
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    text-decoration: none;
+    width: auto;
+    z-index: 9999;
+    transition: opacity 0.3s, visibility 0.3s;
+    display: flex;
+    align-items: center; /* Alinha o texto e o ícone verticalmente */
+    justify-content: center; /* Centraliza o conteúdo */
+}
+
+.scrollToTop i {
+    margin-right: 8px; /* Espaço entre a seta e o texto */
+    font-size: 20px; /* Tamanho do ícone */
+}
+
+.scrollToTop span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.scrollToTop:hover,
+.scrollToTop:focus {
+    color: #000;
+}
