@@ -1,51 +1,57 @@
-body{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.box {
+    width: 90%; 
+    max-width: 800px; 
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid black;
 }
 
-.container{
-	display: flex;
+hr {
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin: 0;
 }
 
-.item{
-	background-color: lightgray;
-	color: black;
-	font-weight: bold;
-	margin: 5px;
-	text-align: center;
+h4{
+    font-family: Montserrat;
 }
 
-.header{
-	font-size: 16px;
-	color: gray;
-	font-weight: bold;
-	margin: 20px;
-	line-height: 2px;
+h5{
+    font-family: Montserrat;
+    color: blue;
+    font-size: 10px;
+}
+h6{
+    font-family: Monstserrat;
+    color: green;
 }
 
-h3{
-	color: gray;
-	margin: 20px;
+p{
+    font-family: Montserrat;
+    font-size: 10px;
 }
 
-.birth-cpf{
-	line-height: 8px;
-	margin: 40px;	
-	margin-bottom: 2px;
+li{
+    font-size: 10px;
 }
 
-.linkRedeSocial{
-	margin: 30px;
+a{
+    font-size: 10px;
 }
 
-.xp{
-	line-height: 8px;
-	margin: 40px;	
-	margin-bottom: 2px;
+/* Esconder os botões ao imprimir */
+@media print {
+    .no-print {
+        display: none;
+    }
 }
 
-.xpcontent{
-	line-height: 14px;
-	margin: 8px;	
-	
+/* Estilização dos botões */
+ .actions {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
