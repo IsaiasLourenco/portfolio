@@ -10,11 +10,11 @@ document.querySelector("#generate-pdf").addEventListener("click", async () => {
 
         // Definindo o caminho do arquivo baseado no idioma escolhido
         if (idioma === "pt") {
-            caminhoArquivo = "./cv-pt.html";
+            caminhoArquivo = "../../cv-pt.html";
         } else if (idioma === "en") {
-            caminhoArquivo = "./cv-en.html";
+            caminhoArquivo = "../../cv-en.html";
         } else if (idioma === "es") {
-            caminhoArquivo = "./cv-es.html";
+            caminhoArquivo = "../../cv-es.html";
         }
 
         console.log("Tentando buscar o arquivo:", caminhoArquivo);
@@ -28,10 +28,11 @@ document.querySelector("#generate-pdf").addEventListener("click", async () => {
         const htmlContent = await response.text();
         console.log("Conteúdo HTML carregado com sucesso!");
 
-        // Criar um container invisível para o conteúdo do HTML
+        // Criar um container visível para o conteúdo do HTML
         const tempDiv = document.createElement("div");
         tempDiv.innerHTML = htmlContent;
-        tempDiv.style.display = "none"; // Para não exibir na página
+        tempDiv.style.position = "absolute";
+        tempDiv.style.left = "-9999px"; // Mantém fora da tela, mas visível para html2pdf
         document.body.appendChild(tempDiv);
         console.log("Container temporário criado!");
 
@@ -43,12 +44,24 @@ document.querySelector("#generate-pdf").addEventListener("click", async () => {
             jsPDF: { unit: "mm", format: "a4", orientation: "portrait" }
         };
 
+        const style = document.createElement("link");
+        style.rel = "stylesheet";
+        style.href = "../css/cv.css"; // Ajuste o caminho se necessário
+        tempDiv.appendChild(style);
+
+
+        setTimeout(() => {
+            html2pdf(tempDiv);
+        }, 1000);
+
+
         console.log("Gerando PDF...");
         await html2pdf().set(options).from(tempDiv).save();
 
         // Remover o conteúdo temporário após gerar o PDF
         document.body.removeChild(tempDiv);
         console.log("PDF gerado e container removido!");
+        console.log(tempDiv.innerHTML);
 
     } catch (error) {
         alert("Erro ao gerar o PDF. Tente novamente.");
